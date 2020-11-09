@@ -195,8 +195,9 @@ elif int(choice) == 3:
 			container=input("Enter the name of your O.S: ")
 			copy="docker cp"+" "+py+" "+container+":"+dst
 		elif int(dc) == 23:
-			rmv=("Enter the name of O.S: ")
-			rm="docker rm -f "+rmv
+			rme=("Enter the name of O.S: ")
+			rmt="docker rm -f "+rme
+			os.system(rmt)
 		elif int(dc) == 24:
 			pu=input("What should be the name of your O.S: ")
 			rty=input("Name of image you just pulled: ")
