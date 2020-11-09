@@ -198,9 +198,10 @@ elif int(choice) == 3:
 			rmv=("Enter the name of O.S: ")
 			rm="docker rm -f "+rmv
 		elif int(dc) == 24:
-			os=input("What should be the name of your O.S: ")
-			img=input("Name of image you just pulled: ")
-			run="docker run -it"+" "+"--name"+" "+os+" "+img
+			pu=input("What should be the name of your O.S: ")
+			rty=input("Name of image you just pulled: ")
+			anyq="docker run -it"+" "+"--name"+" "+pu+" "+rty
+			os.system(anyq)
 		elif int(dc) == 25:
 			os.system("python3 pythonmenu.py")
 		elif int(dc) == 0:
