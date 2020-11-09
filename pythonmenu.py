@@ -63,7 +63,7 @@ if int(choice) == 1:
 
 		elif int(basic) == 5:
 			tc=input("Enter the name of file: ")
-			ch=input("Enter the desired extension: ")	
+			ch=input("Enter the desired extension eg py,txt,docx etc: ")	
 			cf=tc+"."+ch
 			print(cf)
 			touch="touch"+" "+cf
